@@ -1,0 +1,144 @@
+/*APP WIDE*/
+
+.row {
+	margin-bottom: 0px;
+}
+
+.container {
+	width: 80%;
+}
+
+.nav-wrapper  a {
+	margin-left: 5px;
+}
+.nav-wrapper {
+  background-color: #18573c;
+  color: white;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+	margin-bottom: 15px;
+}
+.left_nav {
+  background-color: #b7decd;
+  color: black;
+  box-shadow: 0px 2px 5px black;
+  word-wrap: break-word;
+  height: 100%;
+  overflow: scroll;
+}
+.sidebar_title{
+  text-decoration: underline;
+}
+.right_nav {
+  background-color: #b7decd;
+  color: black;
+  box-shadow: 0px 2px 5px black;
+  word-wrap: break-word;
+  height: 100%;
+  overflow: scroll;
+}
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+.middle-content{
+  height: 100%;
+}
+#main-window{
+	height: 100%;
+}
+.housemate_info{
+	background-color: #18573c
+}
+
+/*LOGIN PAGE*/
+
+.middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+
+
+.input {
+	margin-bottom: 0px;
+}
+
+.error {
+	color: red;
+	margin-top: -18px;
+	font-size: 0.8em;
+}
+
+.flash-errors {
+	color: red;
+
+}
+
+/*JOIN AND CREATE PAGE*/
+
+.center-btn {
+	display: block;
+	margin: 0 auto;
+}
+
+.new-house, .join-house {
+	display: none;
+}
+
+.join-house {
+	display: none;
+}
+
+#join-house {
+	margin-bottom: 10px;
+}
+
+
+/*DASHBOARD*/
+.card-action {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.modal-content {
+	word-wrap: break-word;
+}
+.house_name{
+	text-align: center;
+}
+
+
+/*CHARGE PAGE*/
+
+.split-amount {
+	line-height: 10px;
+}
+
+/*MESSAGE PAGE*/
+.comment-button {
+	margin-top: 30px;
+}
+
+.comments {
+	overflow: scroll;
+	height: 250px;
+}
+
+/*CALENDAR*/
+#calendar {
+	margin-top: 20px;
+}
+
+.addevent-button {
+	margin-top: 10px;
+}
+
+
+
+
+
+

@@ -327,7 +327,7 @@ def delete_comment(request, id):
 # logs user out and redirects to login page
 def logout(request):
 	request.session.clear()
-	return redirect('/login')
+	return redirect('/')
 
 
 
